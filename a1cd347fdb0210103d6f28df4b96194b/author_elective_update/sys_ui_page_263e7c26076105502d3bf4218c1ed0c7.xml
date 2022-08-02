@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_284677_nv_softph_cheak_interaction.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+    
+<!-- ACTUAL PAGE STARTS HERE -->
+
+<g:requires name="styles/heisenberg/heisenberg_all.css" includes="true"/>
+<g:macro_invoke macro="$pwd_reset_stylesheet"/>
+<g:requires name="scripts/lib/jquery_includes.js" includes="true"/>
+
+<center>
+  <div class="pwd-notification-box">
+    <i class="icon-success pwd-icon pwd-icon-success"/>
+    <h1 class="pwd-title">${gs.getMessage("Change Password Success")}</h1>
+
+    <g:set_if var="jvar_success" test="${empty(sysparm_success)}" true="${gs.getSession().getProperty('sysparm_success')}" false="${sysparm_success}" />
+	
+    <j:if test="${empty(jvar_success)}">
+      <h2 class="pwd-subtitle">${gs.getMessage('Password was changed successfully.')}</h2>
+    </j:if>
+	
+
+	<!-- user_experience_success macro -->
+	<g:evaluate var="jvar_display_add_on">
+		var requestId = gs.getSession().getProperty('sysparm_request_id');
+        var processId = new SNC.PwdTrackingManager().getProcessIdByRequestId(requestId);
+        var successMacro = "";
+        var processGr = new GlideRecord("pwd_process");
+        if (processGr.get(processId)) {
+          successMacro = processGr.getDisplayValue("user_experience_success");
+        }
+        successMacro;
+    </g:evaluate>
+
+    <j:if test="${!empty(jvar_display_add_on)}">
+       <g:macro_invoke macro="${jvar_display_add_on}" />
+    </j:if>
+	
+  </div>
+</center> 
+
+</j:jelly>]]></html>
+        <name>cheak_interaction</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 08:14:38</sys_created_on>
+        <sys_id>263e7c26076105502d3bf4218c1ed0c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cheak_interaction</sys_name>
+        <sys_package display_value="NV_Softphone" source="x_284677_nv_softph">a1cd347fdb0210103d6f28df4b96194b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NV_Softphone">a1cd347fdb0210103d6f28df4b96194b</sys_scope>
+        <sys_update_name>sys_ui_page_263e7c26076105502d3bf4218c1ed0c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 08:14:38</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NV_Softphone">a1cd347fdb0210103d6f28df4b96194b</application>
+        <file_path/>
+        <instance_id>26eb08d6dbf47b0452cec59705961989</instance_id>
+        <instance_name>dev81215</instance_name>
+        <name>sys_ui_page_263e7c26076105502d3bf4218c1ed0c7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_284677_nv_softph_cheak_interaction.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+    
+&lt;!-- ACTUAL PAGE STARTS HERE --&gt;
+
+&lt;g:requires name="styles/heisenberg/heisenberg_all.css" includes="true"/&gt;
+&lt;g:macro_invoke macro="$pwd_reset_stylesheet"/&gt;
+&lt;g:requires name="scripts/lib/jquery_includes.js" includes="true"/&gt;
+
+&lt;center&gt;
+  &lt;div class="pwd-notification-box"&gt;
+    &lt;i class="icon-success pwd-icon pwd-icon-success"/&gt;
+    &lt;h1 class="pwd-title"&gt;${gs.getMessage("Change Password Success")}&lt;/h1&gt;
+
+    &lt;g:set_if var="jvar_success" test="${empty(sysparm_success)}" true="${gs.getSession().getProperty('sysparm_success')}" false="${sysparm_success}" /&gt;
+	
+    &lt;j:if test="${empty(jvar_success)}"&gt;
+      &lt;h2 class="pwd-subtitle"&gt;${gs.getMessage('Password was changed successfully.')}&lt;/h2&gt;
+    &lt;/j:if&gt;
+	
+
+	&lt;!-- user_experience_success macro --&gt;
+	&lt;g:evaluate var="jvar_display_add_on"&gt;
+		var requestId = gs.getSession().getProperty('sysparm_request_id');
+        var processId = new SNC.PwdTrackingManager().getProcessIdByRequestId(requestId);
+        var successMacro = "";
+        var processGr = new GlideRecord("pwd_process");
+        if (processGr.get(processId)) {
+          successMacro = processGr.getDisplayValue("user_experience_success");
+        }
+        successMacro;
+    &lt;/g:evaluate&gt;
+
+    &lt;j:if test="${!empty(jvar_display_add_on)}"&gt;
+       &lt;g:macro_invoke macro="${jvar_display_add_on}" /&gt;
+    &lt;/j:if&gt;
+	
+  &lt;/div&gt;
+&lt;/center&gt; 
+
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;cheak_interaction&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-11 08:14:38&lt;/sys_created_on&gt;&lt;sys_id&gt;263e7c26076105502d3bf4218c1ed0c7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;cheak_interaction&lt;/sys_name&gt;&lt;sys_package display_value="NV_Softphone" source="x_284677_nv_softph"&gt;a1cd347fdb0210103d6f28df4b96194b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NV_Softphone"&gt;a1cd347fdb0210103d6f28df4b96194b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_263e7c26076105502d3bf4218c1ed0c7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-11 08:14:38&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1924571618</payload_hash>
+        <record_name>cheak_interaction</record_name>
+        <reverted_from/>
+        <source>65cd347fdb0210103d6f28df4b96194d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 08:14:38</sys_created_on>
+        <sys_id>496e3066076105502d3bf4218c1ed0b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ee7d935210000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 08:14:38</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>816e30668d610550fc81ffa79ed5f3b7</update_guid>
+        <update_guid_history>816e30668d610550fc81ffa79ed5f3b7:1924571618</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 09:19:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>074d7f1ddb5b4e748f451cbb45464110</sys_id>
+        <sys_metadata>263e7c26076105502d3bf4218c1ed0c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cheak_interaction</sys_name>
+        <sys_package display_value="NV_Softphone" source="x_284677_nv_softph">a1cd347fdb0210103d6f28df4b96194b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NV_Softphone">a1cd347fdb0210103d6f28df4b96194b</sys_scope>
+        <sys_scope_delete display_value="">5270a00557fb4efc917184c77b0fe099</sys_scope_delete>
+        <sys_update_name>sys_ui_page_263e7c26076105502d3bf4218c1ed0c7</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_263e7c26076105502d3bf4218c1ed0c7">496e3066076105502d3bf4218c1ed0b7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 09:19:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

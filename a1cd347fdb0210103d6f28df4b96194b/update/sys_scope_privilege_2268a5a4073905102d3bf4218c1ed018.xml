@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="NV_Softphone">a1cd347fdb0210103d6f28df4b96194b</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-17 16:26:07</sys_created_on>
+        <sys_id>2268a5a4073905102d3bf4218c1ed018</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ManyToManyChecker</sys_name>
+        <sys_package display_value="NV_Softphone" source="x_284677_nv_softph">a1cd347fdb0210103d6f28df4b96194b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NV_Softphone">a1cd347fdb0210103d6f28df4b96194b</sys_scope>
+        <sys_update_name>sys_scope_privilege_2268a5a4073905102d3bf4218c1ed018</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-17 16:26:07</sys_updated_on>
+        <target_name>ManyToManyChecker</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_script_include</target_type>
+    </sys_scope_privilege>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.query_hints=true,email_client=true,hasLabels=true,hasWorkflow=true,live_feed=true" audit="true" extends="task" label="Incident" max_length="40" name="incident" sizeclass="74" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Duration" max_length="40" name="x_284677_nv_softph_duration" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="End Time" max_length="40" name="x_284677_nv_softph_end_time" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Interaction_Id" max_length="40" name="x_284677_nv_softph_interaction_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Interaction_id_detail" max_length="40" name="x_284677_nv_softph_interaction_id_detail" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="intraction id" max_length="40" name="x_284677_nv_softph_intraction_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Queue" max_length="40" name="x_284677_nv_softph_queue" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Recoding" max_length="40" name="x_284677_nv_softph_recoding" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Time" max_length="40" name="x_284677_nv_softph_start_time" type="string"/>
+        <element label="New Audio" max_length="40" name="x_284677_nv_softph_u_audio_1" type="audio"/>
+        <element label="Call Recording" max_length="40" name="x_284677_nv_softph_u_audio_4" type="audio"/>
+        <element attributes="edge_encryption_enabled=true" label="End Time" max_length="40" name="x_284677_nv_softph_u_calendar_date_time_2" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Time" max_length="40" name="x_284677_nv_softph_u_calendar_date_time_5" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Direction" max_length="40" name="x_284677_nv_softph_u_direction" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New Date/Time" max_length="40" name="x_284677_nv_softph_u_glide_date_time_3" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Date/Time" max_length="40" name="x_284677_nv_softph_u_glide_date_time_6" type="glide_date_time"/>
+        <element label="Duration" max_length="40" name="x_284677_nv_softph_u_glide_duration_1" type="glide_duration"/>
+        <element label="Duration" max_length="40" name="x_284677_nv_softph_u_glide_duration_4" type="glide_duration"/>
+        <element label="New HTML" max_length="65536" name="x_284677_nv_softph_u_html_1" type="html"/>
+        <element label="New NDS Icon" max_length="40" name="x_284677_nv_softph_u_nds_icon_2" type="nds_icon"/>
+    </element>
+</database>
