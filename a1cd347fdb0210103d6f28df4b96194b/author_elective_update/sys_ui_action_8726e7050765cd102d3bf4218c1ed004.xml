@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name/>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Open Interaction</name>
+        <onclick>getAlert()</onclick>
+        <order>100</order>
+        <script><![CDATA[function getAlert() {
+    g_form.setSectionDisplay('Interaction_Details', true);
+}
+
+//var sections = g_form.getSections();
+//sections[4].style.display == 'none';
+//}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-07 04:38:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8726e7050765cd102d3bf4218c1ed004</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>Open Interaction</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NV_Softphone" source="x_284677_nv_softph">a1cd347fdb0210103d6f28df4b96194b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NV_Softphone">a1cd347fdb0210103d6f28df4b96194b</sys_scope>
+        <sys_update_name>sys_ui_action_8726e7050765cd102d3bf4218c1ed004</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-08 05:13:25</sys_updated_on>
+        <table>incident</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NV_Softphone">a1cd347fdb0210103d6f28df4b96194b</application>
+        <file_path/>
+        <instance_id>26eb08d6dbf47b0452cec59705961989</instance_id>
+        <instance_name>dev81215</instance_name>
+        <name>sys_ui_action_8726e7050765cd102d3bf4218c1ed004</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Open Interaction&lt;/name&gt;&lt;onclick&gt;getAlert()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function getAlert() {
+    g_form.setSectionDisplay('Interaction_Details', true);
+}
+
+//var sections = g_form.getSections();
+//sections[4].style.display == 'none';
+//}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-07 04:38:03&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8726e7050765cd102d3bf4218c1ed004&lt;/sys_id&gt;&lt;sys_mod_count&gt;28&lt;/sys_mod_count&gt;&lt;sys_name&gt;Open Interaction&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NV_Softphone" source="x_284677_nv_softph"&gt;a1cd347fdb0210103d6f28df4b96194b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NV_Softphone"&gt;a1cd347fdb0210103d6f28df4b96194b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_8726e7050765cd102d3bf4218c1ed004&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-08 05:13:25&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1205059142</payload_hash>
+        <record_name>Open Interaction</record_name>
+        <reverted_from/>
+        <source>65cd347fdb0210103d6f28df4b96194d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-08 05:13:25</sys_created_on>
+        <sys_id>c928b0e5072901502d3bf4218c1ed07c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ed7c0368c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-08 05:13:25</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>4528b0e5d52901507a98ddd385ab3d7c</update_guid>
+        <update_guid_history>4528b0e5d52901507a98ddd385ab3d7c:-1205059142,49a778a53d2901503f81199cf9e7b001:57956347,f897f4a5102901502403b3dcfe634e98:1438251434,1f2f28ad66e50150bde2f6234d1a9d5a:-1807981818,2bbea86dc7e50150432437625a52c30e:1766311129,123e60e9a4e5015074ea466ce7632341:1771148017,51abe06964e501503a7840a9b2c9e4dd:1651111294,c459e4294be501507938eb550b5dc1b6:-174557205,9db86429eae50150e7c61ad040c2e989:-113388103,50e7eca50ce501508b025f74839fe483:-2044645067,be372ca53ee501505ba0fcb069ac7bc1:-677355757,4911646114e50150a59a67cbeae38a1e:1212309662,1a10e8eda2a50150f8194bd5f5ebabb3:1638471808,609f94edbea50150eeded351911acf47:-677355757,0afed8adb2a5015049a3aadd2d5e1b01:1775965404,55a496d577edcd10a3f12f1b1024f051:539843905,6464969564edcd10e54c4deb50ced4b7:1249285064,be63529505edcd10862f314c5315bb34:1516576810,e513da153eedcd105226a3cbf0b2c173:975896963,8ebf0a9176edcd10fe0c50510e5b8cf3:-441663594,15e95511232dcd10170c166e8cbccc0c:282100820,5279d9dd18e9cd10b064bf6c53d6640b:1804606171,37c568117369cd100730d2d7400ea99c:1116102566,f4e460ddf529cd1031b5ab58e51c790e:-1475638626,f87f8c993be5cd10ca5531b2587db64b:653211094,1d6ee7c90b65cd10135daf203ea4853a:645094870,ba9def896365cd106d887c09b9bbe499:1488261085,80376345c565cd10b42ab763b75fa753:645094870,1576e7053a65cd10a437b43ed2e8efce:-337906294</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-08 05:16:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>0d66ae3ed4224861825ea0c7540d5ad9</sys_id>
+        <sys_metadata>8726e7050765cd102d3bf4218c1ed004</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open Interaction</sys_name>
+        <sys_package display_value="NV_Softphone" source="x_284677_nv_softph">a1cd347fdb0210103d6f28df4b96194b</sys_package>
+        <sys_parent display_value="Incident">731aa1d82cd300100c1dbc48b5c9f529</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NV_Softphone">a1cd347fdb0210103d6f28df4b96194b</sys_scope>
+        <sys_scope_delete display_value="">5270a00557fb4efc917184c77b0fe099</sys_scope_delete>
+        <sys_update_name>sys_ui_action_8726e7050765cd102d3bf4218c1ed004</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_8726e7050765cd102d3bf4218c1ed004">c928b0e5072901502d3bf4218c1ed07c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-08 05:16:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

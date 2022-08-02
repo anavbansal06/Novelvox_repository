@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_284677_nv_softph_u_audio_1" label="New Audio" language="en" table="incident">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_284677_nv_softph_u_audio_1</element>
+            <help/>
+            <hint/>
+            <label>New Audio</label>
+            <language>en</language>
+            <name>incident</name>
+            <plural>New Audios</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-07 03:41:36</sys_created_on>
+            <sys_id>628957090725cd102d3bf4218c1ed0a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New Audio</sys_name>
+            <sys_package display_value="NV_Softphone" source="x_284677_nv_softph">a1cd347fdb0210103d6f28df4b96194b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NV_Softphone">a1cd347fdb0210103d6f28df4b96194b</sys_scope>
+            <sys_update_name>sys_documentation_incident_x_284677_nv_softph_u_audio_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-07 03:41:36</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

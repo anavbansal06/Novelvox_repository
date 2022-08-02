@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_284677_nv_softph_interaction_id_detail" label="Interaction_id_detail" language="en" table="incident">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_284677_nv_softph_interaction_id_detail</element>
+            <help/>
+            <hint/>
+            <label>Interaction_id_detail</label>
+            <language>en</language>
+            <name>incident</name>
+            <plural>Interaction_id_details</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-02-18 07:23:54</sys_created_on>
+            <sys_id>b5e578b807f145102d3bf4218c1ed03b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Interaction_id_detail</sys_name>
+            <sys_package display_value="NV_Softphone" source="x_284677_nv_softph">a1cd347fdb0210103d6f28df4b96194b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NV_Softphone">a1cd347fdb0210103d6f28df4b96194b</sys_scope>
+            <sys_update_name>sys_documentation_incident_x_284677_nv_softph_interaction_id_detail_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-02-18 07:23:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
