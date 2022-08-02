@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<style type="text/css" media="screen">
+		html, body  { height:100%; }
+            body { margin:0; padding:0; overflow:auto; text-align:center; 
+                   background-color: #407bb3; }   
+            object:focus { outline:none; }
+		.iframeContainerStyle{
+			margin-right: 0px;
+			margin-left: 0px;
+			margin-bottom: 0px;
+			margin-top: 0px;
+			border-width:0px;
+			
+         	border-bottom-style:solid;
+			border-bottom-color:#FFF;
+			
+         	border-left-style:ridge;
+			border-left-color:#CCC;
+         	
+			border-top-style:ridge;
+			border-top-color:#CCC;
+			
+			border-right-style:solid;
+			border-right-color:#FFF;
+			}
+			
+			#pageGadgetContainer .iframeContainerStyle{
+			margin-bottom: 0px;
+			}
+	</style>	
+	<div id="mydiv" class="iframeContainerStyle">
+		<!--<iframe allow="camera *; microphone *; autoplay *" src="https://ndsqa.novelvox.net/PC%20Enbeddable%20Framework/pc_embeddable.html" id="iagentFrame" frameBorder="0" width="100%" height="450px"> </iframe>   -->
+		 <iframe src="https://demoslcti.novelvox.net/cisco/fin/index.html?cti=sim&amp;flowtype=sys_user" id="iagentFrame"  frameBorder="0" width="100%" height="450px"> </iframe>
+		<!-- <iframe src="https://www.nad.novelvox.net/nad?module=ucm_con&amp;cti=ucsim" id="iagentFrame" frameBorder="0" width="100%" height="450px"> </iframe> -->
+	</div>
+</j:jelly>
